@@ -37,11 +37,12 @@ class DatabaseSeeder extends Seeder
 
         // Tanpa Faker
 
-        // User::create([
-        //     'name' => 'Galih Tra',
-        //     'email' => 'galihtra@gmail.com',
-        //     'password' => bcrypt('12345')
-        // ]);
+        User::create([
+            'name' => 'Galih Tra',
+            'username' => 'galih',
+            'email' => 'galih@gmail.com',
+            'password' => bcrypt('123456')
+        ]);
 
         // User::create([
         //     'name' => 'Sandhika',
